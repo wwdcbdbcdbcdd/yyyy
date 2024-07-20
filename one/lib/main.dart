@@ -17,7 +17,16 @@ class _oppState extends State<opp> {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Text("Kamalov Ismoiljon"),
+      child: Column(
+        children: [
+          Text("Kamalov Ismoiljon"),
+         Container(
+          height: 200,
+          width: 390,
+          child: Image.asset("rasm/odam.jpg",fit: BoxFit.cover,),
+         )
+        ],
+      ),
     );
   }
 }
